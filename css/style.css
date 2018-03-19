@@ -73,13 +73,23 @@ main ul li .card {
 
 .card img {
   margin: 30px auto;
+  display: block;
 }
 
 .card button:hover {
   background-color: yellow;
 }
-
-.shon .text {
-  outline: 1px solid #525252;
-  display: inline-block;
+.text img {
+  display: block;
 }
+.text {
+  outline: 1px solid #525252;
+  position: relative;
+}
+
+.inside-text {
+  bottom: 5%;
+  left: 52%;
+  position: absolute;
+}
+
