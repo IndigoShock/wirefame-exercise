@@ -15,10 +15,10 @@ header, footer {
 }
 
 nav ul {
+  float: left;
   list-style-type: none;
   margin:0;
   padding:0;
-  float: left;
 }
 
 nav ul li {
@@ -72,8 +72,8 @@ main ul li .card {
 }
 
 .card img {
-  margin: 30px auto;
   display: block;
+  margin: 30px auto;
 }
 
 .card button:hover {
@@ -83,7 +83,6 @@ main ul li .card {
   display: block;
 }
 .text {
-  outline: 1px solid #525252;
   position: relative;
 }
 
@@ -93,3 +92,23 @@ main ul li .card {
   position: absolute;
 }
 
+#bigtitle {
+  font-size: 25px;
+}
+
+.button {
+  background-color: #ddd;
+  border-radius: 10px;
+  color: #ddd;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.inside-text p {
+  font-size: 20px;
+  overflow: scroll;
+}
